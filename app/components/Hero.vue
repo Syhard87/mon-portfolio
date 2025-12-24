@@ -17,22 +17,22 @@
           <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
           <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
         </span>
-        <span class="text-sm text-emerald-300 font-medium tracking-wide">Available for work</span>
+        <span class="text-sm text-emerald-300 font-medium tracking-wide">Disponible pour projets</span>
       </div>
 
       <!-- Heading -->
       <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight animate-slide-up opacity-0" style="animation-delay: 0.2s; animation-fill-mode: forwards;">
-        Building digital
+        Créateur d'expériences
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-indigo-500">
-          experiences
+          numériques
         </span>
         <br class="hidden md:block" />
-        that matter.
+        sur mesure.
       </h1>
 
       <!-- Subtitle -->
       <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed animate-slide-up opacity-0" style="animation-delay: 0.4s; animation-fill-mode: forwards;">
-        I'm a UI/UX Designer and Developer crafting premium web interfaces with modern technologies and attention to detail.
+        Je suis Antoine Morellet, Développeur Nuxt.js passionné par la conception d'interfaces performantes et esthétiques.
       </p>
 
       <!-- CTAs -->
@@ -41,13 +41,13 @@
           to="#projects"
           class="px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 transform hover:-translate-y-1"
         >
-          View Projects
+          Voir mes projets
         </NuxtLink>
         <NuxtLink 
           to="#contact"
           class="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-lg border border-slate-700 hover:border-slate-600 transition-all duration-300"
         >
-          Contact Me
+          Me contacter
         </NuxtLink>
       </div>
     </div>

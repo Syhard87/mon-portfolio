@@ -32,6 +32,11 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      title: 'Antoine Morellet - Développeur Nuxt.js',
+      meta: [
+        { name: 'description', content: 'Portfolio de Antoine Morellet, Développeur Nuxt.js spécialisé dans le développement web moderne et performant.' },
+        { name: 'author', content: 'Antoine Morellet' }
+      ],
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },

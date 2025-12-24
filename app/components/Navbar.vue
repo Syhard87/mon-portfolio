@@ -33,8 +33,8 @@ const toggleMenu = () => {
     <div class="container mx-auto px-6 h-20 flex justify-between items-center">
       <!-- Logo -->
       <NuxtLink to="/" class="text-2xl font-bold font-sans tracking-tight group">
-        <span class="text-emerald-500 group-hover:text-emerald-400 transition-colors">Syhar</span>
-        <span class="text-slate-100">.dev</span>
+        <span class="text-emerald-500 group-hover:text-emerald-400 transition-colors">Antoine</span>
+        <span class="text-slate-100 group-hover:text-white transition-colors">Morellet</span>
       </NuxtLink>
 
       <!-- Desktop Menu -->

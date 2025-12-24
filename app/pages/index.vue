@@ -1,8 +1,7 @@
-<script setup lang="ts">
 useHead({
-  title: 'Syhar - Portfolio',
+  title: 'Antoine Morellet - Portfolio',
   meta: [
-    { name: 'description', content: 'Portfolio of Syhar, UI/UX Designer and Developer.' }
+    { name: 'description', content: 'Portfolio de Antoine Morellet, Développeur Nuxt.js.' }
   ]
 })
 </script>
