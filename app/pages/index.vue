@@ -11,6 +11,8 @@ useHead({
   <main>
     <Hero />
     
+    <TechMarquee />
+
     <section id="about" class="min-h-screen flex items-center justify-center bg-slate-800/50">
       <h2 class="text-4xl font-bold text-white">À propos de moi</h2>
     </section>

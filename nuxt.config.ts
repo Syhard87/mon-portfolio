@@ -5,8 +5,13 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     '@nuxt/icon',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    '@tresjs/nuxt'
   ],
+
+  build: {
+    transpile: ['gsap']
+  },
 
 
 
