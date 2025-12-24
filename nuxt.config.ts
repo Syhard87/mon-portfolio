@@ -8,7 +8,19 @@ export default defineNuxtConfig({
     '@vueuse/nuxt'
   ],
 
+
+
+  // Configuration TypeScript Stricte
+  typescript: {
+    strict: true,
+    typeCheck: true
+  },
+
   // Configuration pour le déploiement sur Vercel (Rendu Statique)
+  nitro: {
+    preset: 'vercel-static'
+  },
+
   routeRules: {
     '/': { prerender: true }
   },
@@ -16,6 +28,16 @@ export default defineNuxtConfig({
   // Compatibilité et futur
   future: {
     compatibilityVersion: 4,
+  },
+
+  app: {
+    head: {
+      link: [
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap' }
+      ]
+    }
   },
 
   compatibilityDate: '2024-11-01'
